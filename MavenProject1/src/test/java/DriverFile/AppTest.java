@@ -11,7 +11,7 @@ public class AppTest {
 
 	@Test
 	public void StartApp() throws Throwable {
-		//System.setProperty("webdriver.chrome.driver", "CommonJarFiles/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "CommonJarFiles/chromedriver.exe");
 	WebDriver	driver= new ChromeDriver();
 	driver.manage().deleteAllCookies();
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

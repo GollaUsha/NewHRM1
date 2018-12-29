@@ -16,7 +16,7 @@ public class AppTest {
 	driver.manage().deleteAllCookies();
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	driver.get("http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login");
-	System.out.println("added");
+	System.out.println("Comments added");
 		
 	}
 
